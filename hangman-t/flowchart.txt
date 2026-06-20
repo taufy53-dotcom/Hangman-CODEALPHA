@@ -1,0 +1,54 @@
+Start
+  │
+  ▼
+Import Libraries
+  │
+  ▼
+Initialize GUI
+  │
+  ▼
+Load Word List
+  │
+  ▼
+Select Random Word
+  │
+  ▼
+Create Hidden Word Display
+  │
+  ▼
+Set Attempts = 6
+  │
+  ▼
+User Enters Letter
+  │
+  ▼
+Letter Already Used?
+ ┌────┴────┐
+Yes       No
+ │          │
+Show      Check Letter
+Message     │
+ │           ▼
+ └────────► Letter In Word?
+            ┌────┴────┐
+           Yes       No
+            │          │
+Reveal    Decrease
+Letter    Attempts
+            │
+            ▼
+      Word Complete?
+       ┌───┴───┐
+      Yes     No
+       │        │
+       ▼        ▼
+   Display   Attempts
+   "You Win" Left?
+              ┌──┴──┐
+             Yes   No
+              │     │
+              │     ▼
+              │ Display
+              │ "You Lose"
+              │
+              └──► End
